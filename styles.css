@@ -8,7 +8,7 @@ a {
     color:aliceblue;
     text-decoration: none;
 }
-.head {
+.head-foot {
     background: #1f2937;
     color:aliceblue;
     display: flex;
@@ -31,6 +31,7 @@ a {
     height: 40px;
     width: auto;
     margin-right: auto;
+    border-radius: 2rem;
 }
 
 .intro {
