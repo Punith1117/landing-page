@@ -64,13 +64,14 @@ a {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
+    margin: 2rem;
 }
 
 .images-section {
     display: flex;
-    gap: 40px;
+    gap: 5rem;
     font-size: small;
     color: grey;
 }
@@ -80,7 +81,7 @@ a {
     flex-direction: column;
     width: 130px;
     height: auto;
-    gap: 7px;
+    gap: 1rem;
 }
 
 .image {
@@ -89,4 +90,35 @@ a {
     border: 3px solid #3882F6;
     border-radius: 10px 30px;
     box-shadow: 4px 4px 7px rgb(255, 0, 0);
+}
+
+.secondary-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(184, 183, 183);
+    padding: 40px;
+    gap: 10px;
+    font-size: larger;
+}
+
+.quote {
+    max-width: 60rem;
+    font-family: cursive;
+}
+
+.name {
+    margin-left: 50%;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(79, 172, 79);
+    padding: 30px;
+    margin: 3.5rem;
+    gap: 2rem;
+    border-radius: 1rem;
 }
