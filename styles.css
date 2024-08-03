@@ -126,3 +126,10 @@ img.intropic{
     gap: 2rem;
     border-radius: 1rem;
 }
+
+body {
+    transform: scale(1.25);
+    transform-origin: 0 0; /* Sets the origin point for scaling to the top-left corner */
+    width: 80%; /* Adjust width to accommodate scaling */
+    height: 80%;
+}
